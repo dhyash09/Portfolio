@@ -257,6 +257,7 @@ body {
     max-height: 0px;
     position: absolute;
   }
+
   .head1-show {
     display: block;
     position: fixed;
@@ -368,6 +369,7 @@ body {
     min-height: 50%;
   }
   .closebtn {
+    text-align: left !important;
     display: block !important;
     background-color: transparent;
     color: white;
