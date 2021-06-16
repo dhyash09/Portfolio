@@ -232,6 +232,14 @@ body {
   height: 28px;
 }
 
+.download-icon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .navbar-fixed {
   display: block;
   position: fixed !important;
@@ -257,6 +265,7 @@ body {
     max-height: 0px;
     position: absolute;
   }
+
   .head1-show {
     display: block;
     position: fixed;
@@ -302,6 +311,15 @@ body {
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 15px 20px 0px rgb(0 0 0 / 10%);
   }
+
+  .download-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
   .navbar-fixed {
     min-width: 100%;
     position: absolute;
@@ -325,6 +343,15 @@ body {
   .nodisplay {
     display: none !important;
   }
+
+  .line::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1;
+    background: grey;
+  }
+
   .toplink {
     margin: 0px;
     padding: 0px;
@@ -368,6 +395,7 @@ body {
     min-height: 50%;
   }
   .closebtn {
+    text-align: left !important;
     display: block !important;
     background-color: transparent;
     color: white;
